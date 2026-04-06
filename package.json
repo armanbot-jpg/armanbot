@@ -1,19 +1,25 @@
 {
-  "name": "openclaw",
+  "name": "armanbot",
   "version": "2026.4.6",
-  "description": "Multi-channel AI gateway with extensible messaging integrations",
-  "keywords": [],
-  "homepage": "https://github.com/openclaw/openclaw#readme",
+  "description": "ArmanBot — AI agent gateway by Aray (based on OpenClaw)",
+  "keywords": [
+    "agent",
+    "ai",
+    "armanbot",
+    "gateway"
+  ],
+  "homepage": "https://github.com/armanbot-jpg/armanbot#readme",
   "bugs": {
-    "url": "https://github.com/openclaw/openclaw/issues"
+    "url": "https://github.com/armanbot-jpg/armanbot/issues"
   },
   "license": "MIT",
-  "author": "",
+  "author": "Aray",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/openclaw/openclaw.git"
+    "url": "git+https://github.com/armanbot-jpg/armanbot.git"
   },
   "bin": {
+    "armanbot": "armanbot.mjs",
     "openclaw": "openclaw.mjs"
   },
   "directories": {
