@@ -299,7 +299,11 @@ importers:
 
   extensions/chutes: {}
 
+  extensions/claude-code: {}
+
   extensions/cloudflare-ai-gateway: {}
+
+  extensions/comfy: {}
 
   extensions/copilot-proxy: {}
 
@@ -724,6 +728,8 @@ importers:
         version: link:../..
 
   extensions/volcengine: {}
+
+  extensions/vydra: {}
 
   extensions/whatsapp:
     dependencies:
