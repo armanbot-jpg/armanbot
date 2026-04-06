@@ -1,0 +1,12 @@
+{
+  "name": "@armanbot/claude-code",
+  "version": "2026.4.6",
+  "private": true,
+  "description": "ArmanBot Claude Code provider — routes through Claude Code CLI with Max subscription auth",
+  "type": "module",
+  "openclaw": {
+    "extensions": [
+      "./index.ts"
+    ]
+  }
+}

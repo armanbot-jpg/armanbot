@@ -1,0 +1,35 @@
+{
+  "id": "claude-code",
+  "enabledByDefault": true,
+  "providers": ["claude-code"],
+  "providerAuthEnvVars": {
+    "claude-code": []
+  },
+  "providerAuthChoices": [
+    {
+      "provider": "claude-code",
+      "method": "local",
+      "choiceId": "claude-code",
+      "choiceLabel": "Claude Code CLI",
+      "choiceHint": "Routes through Claude Code Max subscription",
+      "groupId": "claude-code",
+      "groupLabel": "Claude Code",
+      "groupHint": "Claude models via local CLI auth"
+    }
+  ],
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "proxyPort": {
+        "type": "number"
+      }
+    }
+  },
+  "uiHints": {
+    "proxyPort": {
+      "label": "Proxy Port",
+      "help": "Port of the local Claude Code proxy (default: 3456)"
+    }
+  }
+}
